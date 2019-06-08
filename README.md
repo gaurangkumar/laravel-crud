@@ -1,5 +1,6 @@
 ## Laravel CRUD
 Simple CRUD App in Laravel (Create, Read, Update, Delete)
+Build with Laravel Framework 5.8.17
 
 ## About Laravel
 
