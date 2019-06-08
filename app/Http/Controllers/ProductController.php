@@ -15,7 +15,7 @@ class ProductController extends Controller
     public function index()
     {
         #Product::create(['name'=>'Item5', 'price'=>5000, 'detail'=>'Item5 Description']);
-        $products = Product::latest()->paginate(2);
+        $products = Product::latest()->paginate(5);
 
         return view('products.index',compact('products'))
             ->with('i', (request()->input('page', 1) - 1) * 5);
