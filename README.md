@@ -15,3 +15,34 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
+
+## Installing Laravel-CRUD via Composer
+
+Clone this repo
+
+``` bash
+$ git clone https://github.com/gaurangkumar/laravel-crud.git
+```
+Go to laravel-crud dir:
+
+```bash
+$ cd laravel-crud
+```
+
+If Composer is installed globally, run
+
+``` bash
+$ composer install
+```
+Generate APP_KEY,
+
+``` bash
+$ php artisan key:generate
+```
+
+You can now use php developement webserver:
+
+```bash
+$ php artisan serve
+```
+Then visit [http://localhost:8000](http://localhost:8000) to see the Laravel CURD App.
